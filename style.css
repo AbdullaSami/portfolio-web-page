@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+body{
+    background:#eceadd;
+    width: 100%;
+}
+/* ==========================firs section========================= */
+#firstSection{
+    position: relative;
+    width: 100vw;
+    height: 35vh;
+ 
+}
+#logo {
+    width: 80px;
+    margin: 10px;
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+
+#cover{
+    width: 100vw;
+    height: 30vh;
+    position: absolute;
+}
+
+#profile{
+    width:150px;
+    position: absolute;
+    left: 0;
+  right: 0;
+  margin: 0 auto;
+    bottom: 0;
+    border-radius: 100%;
+    
+}
+
+/* ===============================second section========================== */
+#secondSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+#secondSection p {
+text-align: center;
+color: rgb(155, 149, 149);
+}
+
+#secondSection div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+ 
+#secondSection div a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+#secondSection div a:hover{
+    color: #880807;
+}
+
+/* ================================third section==================================== */
+#thirdSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #880807;
+    border-radius: 10px;
+    
+}
+
+#thirdSection div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    padding: 15px;
+   
+}
+
+#thirdSection div a{
+    color: black;
+    margin-left:  15px;
+    margin-right: 15px;
+}
+#thirdSection h2{
+    margin: 10px;
+}
+
+/* ====================================fourth section==================================== */
+
+#fourthSection{
+    margin-bottom: 20px;
+}
+#fourthSection form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.input {
+    border: 2px solid black;
+    margin: 5px;
+    font-size: 1.1rem;
+    
+}
+
+.input[placeholder]{
+    padding: 5px;
+}
+#con{
+    text-align: center;
+}
+#top {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#bottom {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
